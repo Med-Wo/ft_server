@@ -38,9 +38,8 @@ Docker : https://docs.docker.com/engine/install/
 ### Execution des commandes
 
 * "docker build -t [NOM_DE_L'IMAGE] ." construit l'image
-* "docker run -ti -p 80:80 -p 443:443 [NOM_DE_L'IMAGE]" lamce le conteneur en mode interactif et ecoute les ports 80 et 443 (http et 
-Une fois dans le container lance
-* "sh autoindex-on" permet d'activer dans l'index automatique
+* "docker run -ti -p 80:80 -p 443:443 [NOM_DE_L'IMAGE]" lamce le conteneur en mode interactif et ecoute les ports 80 et 443 (http et https)
+* "sh autoindex.sh "on" ou "off" permet d'activer l'index automatique
 
 ### Remerciements
 
